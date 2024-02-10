@@ -139,6 +139,10 @@
   .counter_area .counter_main {
     clip-path: none;
   }
+
+  .dashboard_area .right_info {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -252,5 +256,13 @@
   .mission_vision .mission_vision_item .image {
     margin-left: 0;
     margin-top: 15px;
+  }
+
+  .documents_area .file_document {
+    padding: 30px;
+  }
+
+  .documents_area .file_document img {
+    width: 50px;
   }
 }

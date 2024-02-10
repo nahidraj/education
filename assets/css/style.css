@@ -2557,7 +2557,7 @@ p {
 	margin-bottom: 8px;
 }
 
-.login_area .input_groups input {
+.input_groups input {
 	width: 100%;
 	height: 48px;
 	border-radius: 5px;
@@ -2568,11 +2568,11 @@ p {
 	font-weight: 400;
 }
 
-.login_area .input_groups input:focus {
+.input_groups input:focus {
 	border-color: #0f2931;
 }
 
-.login_area .input_groups small {
+.input_groups small {
 	font-size: 12px;
 	font-weight: 500;
 }
@@ -2593,17 +2593,17 @@ p {
 	background-color: #0f2931;
 }
 
-.login_area .form-check .form-check-input {
+.form-check .form-check-input {
 	border-radius: 0;
 	cursor: pointer;
 }
 
-.login_area .form-check .form-check-input:checked {
+.form-check .form-check-input:checked {
 	background-color: #0f2931;
 	border-color: #0f2931;
 }
 
-.login_area .form-check .form-check-label {
+.form-check .form-check-label {
 	font-size: 15px;
 	font-weight: 500;
 	color: #555;
@@ -2611,6 +2611,66 @@ p {
 	position: relative;
 	top: -3px;
 }
+
+.radio_check input {
+	width: 16px;
+	height: 16px;
+	border-radius: 50% !important;
+}
+
+.input_groups select {
+	width: 100%;
+	height: 48px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	background-color: var(--white);
+	padding: 0 16px;
+	transition: all 0.3s ease-in-out;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.input_groups select:focus {
+	border-color: var(--black);
+}
+
+.input_groups textarea {
+	width: 100%;
+	height: 128px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	background-color: var(--white);
+	padding: 0 16px;
+	transition: all 0.3s ease-in-out;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.input_groups textarea:focus {
+	border-color: var(--black);
+}
+
+.image_input_group .image {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	flex: 0 0 auto;
+	margin-right: 20px;
+	overflow: hidden;
+	border: 1px solid var(--border);
+	padding: 3px;
+}
+
+.image_input_group .image img {
+	border-radius: 50%;
+	height: 100%;
+}
+
+.input_file input {
+	background-color: var(--white);
+	padding-top: 6px;
+}
+
 
 /* login area end */
 /* dashboard area start */
@@ -2861,17 +2921,6 @@ main .right_info .dashboard_info .common_block {
 	font-weight: 600;
 }
 
-.edit-profile fieldset .input-groups input {
-	width: 100%;
-	height: 45px;
-	border: 1px solid #b1b1b1;
-	border-radius: 3px;
-	padding: 0 12px;
-}
-
-.edit-profile fieldset .input-groups input:focus {
-	border-color: var(--primary);
-}
 
 .edit-profile fieldset .input-groups input::placeholder {
 	font-size: 16px;
@@ -2981,24 +3030,22 @@ main .right_info .dashboard_info .common_block {
 	border-color: var(--primary) !important;
 }
 
-.edit-profile .submit_btn {
+.submit_btn {
 	background-color: var(--primary);
 	border-radius: 4px;
-	padding: 12px 30px;
+	padding: 12px 40px;
 	text-align: center;
-	min-width: 320px;
 	border: 0;
 	color: var(--white);
 	margin-top: 30px;
 	transition: all linear .2s;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 600;
 }
 
 .edit-profile .submit_btn:hover {
 	background-color: var(--black);
 }
-
 
 .pagination {
 	margin-top: 30px;
@@ -3069,6 +3116,31 @@ main .right_info .dashboard_info .common_block {
 	border-radius: 40px;
 	padding: 2px 8px;
 	line-height: 20px;
+}
+
+/* documents */
+.documents_area .image_document {
+	border-radius: 10px;
+	border: 1px solid var(--border);
+	overflow: hidden;
+	padding: 10px;
+}
+
+.documents_area .image_document img{
+	border-radius: 10px;
+}
+
+.documents_area .file_document {
+	border-radius: 10px;
+	border: 1px solid var(--border);
+	overflow: hidden;
+	padding: 50px 30px;
+	text-align: center;
+	background-color: var(--background);
+}
+
+.documents_area .file_document img{
+	width: 90px;
 }
 
 /* dashboard area end */
