@@ -1,3 +1,9 @@
+@media (max-width:1799.98px) {
+  .dashboard_area .container-fluid {
+    padding: 0 40px;
+  }
+}
+
 @media (max-width:1399.98px) {
   .banner_area .text .title {
     font-size: 48px;
@@ -27,6 +33,15 @@
 
   .contact_area .contact_map_form .forms {
     max-width: 570px;
+  }
+
+  .dashboard_area .container-fluid {
+    padding: 0 20px;
+  }
+
+  .right_sidebar .info_item .title {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
@@ -142,6 +157,14 @@
 
   .dashboard_area .right_info {
     margin-top: 30px;
+  }
+
+  .right_sidebar {
+    margin-top: 24px;
+  }
+
+  .dashboard_area {
+    padding-top: 100px;
   }
 }
 
